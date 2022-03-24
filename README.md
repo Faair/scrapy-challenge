@@ -15,8 +15,14 @@ source .venv/bin/activate
 ```
 python3 -m pip install requirements.txt
 ```
-## Introdução
-Neste repositório foi desenvolvido um crawler para extração de dados da página da Amazon utilizando a biblioteca Scrapy do Python. Foram extraídos os seguintes dados:
+
+## Descrição
+A Amazon tem uma [página](https://www.amazon.com.br/gp/movers-and-shakers) que é atualizada de hora em hora onde são mostrados os produtos que mais subiram de ranking. Esses resultados são separados em categorias, como por exemplo [Alimentos e Bebidas](https://www.amazon.com.br/gp/movers-and-shakers/grocery). Alguns exemplos de como um item pode aparecer no ranking: 
+
+![Exemplo de item 1](https://i.imgur.com/E4EmoNY.png)![Exemplo de item 2](https://i.imgur.com/ws5tn55.png)
+![Exemplo de item 3](https://i.imgur.com/oMxLF92.png)
+
+Neste repositório foi desenvolvido um crawler para extração de dados da página da Amazon utilizando a biblioteca Scrapy do Python. São extraídos os seguintes dados:
 
  - Nome
  - Link do produto 
