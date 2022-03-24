@@ -1,4 +1,4 @@
-# Projeto para vaga de Desenvolvedor Python Jr.
+# Desafio Python Web Scrapy
 ***
 
 ## Instalação (Linux)
